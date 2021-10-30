@@ -1,6 +1,6 @@
 import axios from "axios";
-
-const url = "http://localhost:5000/posts";
+import dotenv from "dotenv";
+const url = "https://crud-project-memories.herokuapp.com/posts";
 
 export const fetchPosts = () => axios.get(url);
 
